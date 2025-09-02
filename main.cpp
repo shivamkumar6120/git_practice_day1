@@ -7,7 +7,7 @@ int main()
     cout<<"Enter two numbers : "<<endl;
     cin>>num1>>num2;
 
-    cout<<"1. Add \nEnter choice : "<<endl;
+    cout<<"1. Add \n2. Sub \n3.Mul \n4.Div \nEnter choice : "<<endl;
     cin>>choice;
 
     switch(choice)
