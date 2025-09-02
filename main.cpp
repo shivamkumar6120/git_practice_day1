@@ -6,12 +6,17 @@ int main()
     int num1,num2,res,choice;
     cout<<"Enter two numbers : "<<endl;
     cin>>num1>>num2;
-    cout<<"Enter choice : "<<endl;
+
+    cout<<"1. Add \nEnter choice : "<<endl;
     cin>>choice;
 
     switch(choice)
     {
         case 1: res = num1+num2; 
+                cout<<"RESULT = "<<res<<endl;
+        break;
+        case 2: res = num1 - num2; 
+                cout<<"RESULT = "<<res<<endl;
         break;
         default: cout<<"Invalid choice"<<endl;
     }
