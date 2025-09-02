@@ -18,6 +18,13 @@ int main()
         case 2: res = num1 - num2; 
                 cout<<"RESULT = "<<res<<endl;
         break;
+
+        case 3: res = num1 * num2; 
+                cout<<"RESULT = "<<res<<endl;
+        break;
+        case 4: res = num1 / num2; 
+                cout<<"RESULT = "<<res<<endl;
+        break;
         default: cout<<"Invalid choice"<<endl;
     }
     return 0;
